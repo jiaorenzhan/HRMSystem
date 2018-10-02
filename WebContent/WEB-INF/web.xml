@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app>
+
+
+ <filter>
+        <filter-name>LoginFilter</filter-name>
+        <filter-class>filter.LoginFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>LoginFilter</filter-name>
+        <!--过滤站点下所有文件,也可设置成过滤某一类文件如:  "*.jsp" 或是过滤掉某一个文件夹下的所有文件,如: "/目录名/*" -->
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    </web-app>

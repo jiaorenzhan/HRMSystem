@@ -1,0 +1,27 @@
+body {
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	background-image: url(../img/bg_dot.gif);
+}
+
+p,table {
+	font-size: 12px;
+	color: #000000;
+}
+
+input,textarea {
+	font-size: 12px;
+}
+
+a {
+	font-size: 12px;
+	color: #0000FF;
+	text-decoration: underline;
+}
+
+.input1 {
+	width: 150;
+	height: 20;
+}
