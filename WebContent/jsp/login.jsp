@@ -34,7 +34,7 @@
 				<div id="large-header" class="large-header">
 					<canvas id="demo-canvas"></canvas>
 					<div class="logo_box">
-						<h3>欢迎你
+						<h3>Welcome You
 						    <% String str=(String) request.getAttribute("msg");
 						   if(str!=null){
 						%>
@@ -51,7 +51,7 @@
 								<input name="psw" class="text" style="color: #FFFFFF !important; position:absolute; z-index:100;"value="" type="password" placeholder="请输入密码">
 							</div>
 							<div class="reg"> 
-							  <a  class="a1" href="jsp/register.jsp">注册</a>
+							  <a  class="a1" href="jsp/register.jsp">Register</a>
 							</div>
 							<div class="mb2"><a class="act-but submit" href="javascript:document.forms[0].submit();" style="color: #FFFFFF">登录</a></div>
 
