@@ -44,16 +44,16 @@
 						<form action="UserServlet" method= "post">
 							<div class="input_outer">
 								<span class="u_user"></span>
-								<input name="uname" class="text" style="color: #FFFFFF !important" type="text" placeholder="请输入账户">
+								<input name="uname" class="text" style="color: #FFFFFF !important" type="text" placeholder="Please input your account!">
 							</div>
 							<div class="input_outer">
 								<span class="us_uer"></span>
-								<input name="psw" class="text" style="color: #FFFFFF !important; position:absolute; z-index:100;"value="" type="password" placeholder="请输入密码">
+								<input name="psw" class="text" style="color: #FFFFFF !important; position:absolute; z-index:100;"value="" type="password" placeholder="Please input your password!">
 							</div>
 							<div class="reg"> 
 							  <a  class="a1" href="jsp/register.jsp">Register</a>
 							</div>
-							<div class="mb2"><a class="act-but submit" href="javascript:document.forms[0].submit();" style="color: #FFFFFF">登录</a></div>
+							<div class="mb2"><a class="act-but submit" href="javascript:document.forms[0].submit();" style="color: #FFFFFF">login</a></div>
 
 						</form>
 					</div>
